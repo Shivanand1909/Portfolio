@@ -59,8 +59,8 @@ const ContactSection = () => {
             <div className="flex gap-4">
               {[
                 { icon: Mail, href: "mailto:shivanand@example.com", label: "Email" },
-                { icon: Github, href: "https://github.com/", label: "GitHub" },
-                { icon: Linkedin, href: "https://linkedin.com/", label: "LinkedIn" },
+                { icon: Github, href: "https://github.com/Shivanand1909", label: "GitHub" },
+                { icon: Linkedin, href: "www.linkedin.com/in/shivanand-nishad", label: "LinkedIn" },
               ].map((s) => (
                 <a
                   key={s.label}
