@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import profileImg from "@/assets/profile.jpg";
+
+const profileImg = "https://i.postimg.cc/rwgvcrR5/IMG-20260331-230713.jpg";
 
 const HeroSection = () => (
   <section id="home" className="relative min-h-screen flex items-center pt-16 overflow-hidden">
