@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 const skills = [
   { name: "Java", level: 80, category: "Programming" },
-  { name: "HTML / CSS", level: 90, category: "Development" },
+  { name: "HTML / CSS", level: 80, category: "Development" },
   { name: "JavaScript", level: 75, category: "Development" },
   { name: "React", level: 70, category: "Development" },
-  { name: "Problem Solving", level: 85, category: "Core" },
+  { name: "Problem Solving", level: 75, category: "Core" },
   { name: "Git & GitHub", level: 75, category: "Tools" },
 ];
 
