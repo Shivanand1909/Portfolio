@@ -113,9 +113,10 @@ const ContactSection = () => {
             />
             <button
               type="submit"
-              className="w-full px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
+              disabled={sending}
+              className="w-full px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2 disabled:opacity-60"
             >
-              Send Message <Send size={16} />
+              {sending ? <><Loader2 size={16} className="animate-spin" /> Sending...</> : <>Send Message <Send size={16} /></>}
             </button>
           </motion.form>
         </div>
